@@ -64,7 +64,7 @@ namespace BNM
             GameObject labelObject = new GameObject("BNMLabel");
             labelObject.transform.SetParent(tab.transform, false);
             Text labelText = labelObject.AddComponent<Text>();
-            labelText.text = "Coded by ahoyos";
+            labelText.text = "Temporary";
             labelText.font = Resources.GetBuiltinResource<Font>("Arial.ttf");
             labelText.fontSize = 16;
             labelText.color = Color.white;
@@ -73,4 +73,5 @@ namespace BNM
             labelText.rectTransform.anchoredPosition = new Vector2(72f, 54f);
         }
     }
+
 }
